@@ -1,0 +1,36 @@
+Remove in testing.php line 128 to 129:
+<span class="style2">NUMBER OF ROOM/ROOMS:</span> 
+                        <INPUT id="txtChar" onkeypress="return isNumberKey(event)" type="text" name="no_rooms" class="ed">
+
+
+Remove in personnalinfo.php line 7:
+$no_rooms = $_POST['no_rooms'];
+
+Remove in personnalinfo.php line 196:
+Number of Rooms : <?php echo $no_rooms; ?><br />
+
+Remove in personnalinfo.php line 301 to 306:
+<tr>
+                        <td><div align="right" class="style1">Password:<span class="style3">* </span></div></td>
+                        <td><input name="password" type="password" class="ed" id="password" size="35" />
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+
+Remove in payment.php line 39:
+$password = $_POST['password'];
+
+Remove in rates.php line 82 to 94:
+<h1 style="color: #A77D3D;">MARZON HOTEL RATES</h1>
+                <p class="feat1">&nbsp;<span class="style3">Superior</span><br />
+                    <img height="113px" src="hotel_pics/DeluxeQueenSingle_600x450P1_3341-300x225.jpg" alt="hghg" style="float:left; margin-right: 20px;" />12 rooms  | <span class="price">Price:</span> <span class="number">Php 1,300.00</span><br />
+                    This room is composed of three king sized bed,with air conditioned and a free wifi connection. This room also has a comfort room wich is suitable for you.</p>
+                <br />
+                <p class="feat2">&nbsp;<span class="style3">Deluxe</span><br />
+                    <img src="images/deluxe.jpg" alt="ghg" style="float:left; margin-right: 20px;" />5 rooms  | <span class="price">Price:</span> <span class="number">Php 1,100.00</span><br />
+                    This room is a deluxe room with a double king sized bed with hot and cold shower and a free wifi connection. <a href="#">more...</a></p>
+                <br />
+                <p class="feat3">&nbsp;<span class="style3">Standard</span><br />
+                    <img src="images/standard.jpg" alt="hghg" style="float:left; margin-right: 20px;" />5 rooms  | <span class="price">Price:</span> <span class="number">Php 950.00</span><br />
+                    This room is composed of a queen sized bed with a an entertainment televesion set and a comfort room which is suitable for you. This room includes a wifi connection.<a href="#">more...</a></p>
+                <br />

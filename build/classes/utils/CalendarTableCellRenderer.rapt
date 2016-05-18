@@ -1,0 +1,12 @@
+entities/Discounts_.java
+entities/TransactionPayments_.java
+entities/Reservation_.java
+entities/TransactionDiscounts_.java
+entities/TransactionRooms_.java
+entities/Transactions_.java
+entities/Rooms_.java
+entities/Room_.java
+entities/User_.java
+entities/ProductsAndServices_.java
+entities/RoomStatus_.java
+entities/TransactionProducts_.java

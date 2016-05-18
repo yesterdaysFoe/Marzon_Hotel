@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="hotelPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <class>entities.Amenities</class>
+    <class>entities.Comment</class>
+    <class>entities.PaymentNotification</class>
+    <class>entities.ProductsAndServices</class>
+    <class>entities.Reservation</class>
+    <class>entities.Room</class>
+    <class>entities.RoomStatus</class>
+    <class>entities.Roominventory</class>
+    <class>entities.Rooms</class>
+    <class>entities.TransactionPayments</class>
+    <class>entities.TransactionProducts</class>
+    <class>entities.TransactionRooms</class>
+    <class>entities.Transactions</class>
+    <class>entities.User</class>
+    <class>entities.Discounts</class>
+    <class>entities.TransactionDiscounts</class>
+  </persistence-unit>
+</persistence>

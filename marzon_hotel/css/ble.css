@@ -1,0 +1,25 @@
+ul.menu {
+    position:absolute;
+    top:20px;
+    left:0px;
+    height: 67px;
+    width: 721px;
+}
+ul.menu li{float:left}
+ul.menu li.a a{width:90px; height:90px; display:block; background: no-repeat; text-indent:-20000px;}
+ul.menu li.a a:hover{width:90px; height:90px; }
+ul.menu li.b a{width:90px; height:90px; display:block;  text-indent:-20000px;}
+ul.menu li.b a:hover{width:90px; height:90px;}
+ul.menu li.c a{width:90px; height:90px; display:block; text-indent:-20000px;}
+ul.menu li.c a:hover{width:90px; height:90px; }
+ul.menu li.d a{width:90px; height:90px; display:block; text-indent:-20000px;}
+ul.menu li.d a:hover{width:90px; height:90px; }
+ul.menu li.e a{width:90px; height:90px; display:block; text-indent:-20000px;}
+ul.menu li.e a:hover{width:90px; height:90px;}
+ul.menu li.f a{width:90px; height:90px; display:block; text-indent:-20000px;}
+ul.menu li.f a:hover{width:90px; height:90px;}
+ul.menu li.comment a{width:90px; height:90px; display:block;  text-indent:-20000px;}
+ul.menu li.monitor a{width:90px; height:90px; display:block; text-indent:-20000px;}
+ul.menu li.report a{width:90px; height:90px; display:block;  text-indent:-20000px;}
+ul.menu li.inventory a{width:90px; height:90px; display:block; text-indent:-20000px;}
+ul.menu li.room a{width:90px; height:90px; display:block; text-indent:-20000px;}
