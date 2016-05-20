@@ -50,7 +50,7 @@ unset($_SESSION['SESS_FIRST_NAME']);
 
     <body>
         <div style="width:300px; margin:0 auto; position:relative; border:3px solid rgba(0,0,0,0); -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; -webkit-box-shadow:0 0 18px rgba(0,0,0,0.4); -moz-box-shadow:0 0 18px rgba(0,0,0,0.4); box-shadow:0 0 18px rgba(0,0,0,0.4); margin-top:20px;">
-            <form id="form1" name="login" method="post" action="login.php" onsubmit="return validateForm()">
+            <form id="form1" name="login" method="post" action="auth.php" onsubmit="return validateForm()">
                 <table width="286" align="center">
                     <tr>
                         <td colspan="2">&nbsp;</td>
